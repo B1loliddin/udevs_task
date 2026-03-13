@@ -1,0 +1,26 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # avoid rules
+    avoid_print: true
+    avoid_unnecessary_containers: true
+    avoid_relative_lib_imports: true
+    avoid_annotating_with_dynamic: true
+
+    # prefer rules
+    prefer_single_quotes: true
+    prefer_const_constructors: true
+    prefer_const_declarations: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_const_constructors_in_immutables: true
+
+    # always rules
+    always_declare_return_types: true
+    always_specify_types: true
+
+    # require rules
+    require_trailing_commas: true
+
+    # sort rules
+    sort_child_properties_last: true
